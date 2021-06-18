@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.boolean{
+	background-color: rgb(17, 146, 146);
+	width: 75%;
+	height: 600px;
+	padding: 80px;
+	margin: 60px auto;
+}
+h1{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+}
+.box{
+	margin: 50px auto;
+}
+.bl{
+	width: 26%;
+	float: left;
+	padding: 50px;
+}
+.left{
+	background-color: plum;	
+}
+.middle{
+	background-color: tomato;
+}
+.right{
+	background-color: rgb(236, 178, 71);
+}
+li:nth-child(odd){
+	color: white;
+}
+li:nth-child(even){
+	color: rgb(26, 26, 26);
+}
+li:nth-child(3n+0){
+	color: green;
+}
+h3{
+	font-size: 22px;
+}
